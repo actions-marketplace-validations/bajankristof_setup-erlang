@@ -14,7 +14,7 @@ module.exports = {
         delete opts.listeners;
 
         await exec(command, [], {
-            // silent,
+            silent,
             listeners,
             ...opts
         });

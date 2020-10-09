@@ -32,6 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: bajankristof/setup-erlang@master
+      with:
+        otp-version: 23
+        allow-cache: false
     - uses: actions/checkout@v2
     - run: rebar3 eunit
 ```
