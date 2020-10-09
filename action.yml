@@ -1,5 +1,8 @@
 name: 'Setup Erlang/OTP'
 description: 'Setup Erlang/OTP and add it to the PATH'
+branding:
+  color: blue
+  icon: code
 inputs:
   otp-version:
     description: 'The *major* OTP version to download (if necessary) and use (eg.: 23).'
