@@ -1,0 +1,12 @@
+name: 'Setup Erlang/OTP'
+description: 'Setup Erlang/OTP and add it to the PATH'
+inputs:
+  otp-version:
+    description: 'The *major* OTP version to download (if necessary) and use (eg.: 23).'
+    required: true
+  allow-cache:
+    description: 'Whether to cache downloaded content between runs (currently only affects actions running on windows).'
+    default: true
+runs:
+  using: node12
+  main: index.js

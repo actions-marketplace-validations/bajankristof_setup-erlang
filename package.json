@@ -1,0 +1,17 @@
+{
+  "name": "setup-erlang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/cache": "^1.0.2",
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
+    "node-fetch": "^2.6.1",
+    "semver": "^7.3.2"
+  }
+}
